@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Case study van Project 2: Beslis Later - UX case over gedragsbeïnvloeding in app design."
+    />
+    <title>Project 2 Case Study | Athanasia Drakopoulos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css?v=20260321a" />
+  </head>
+  <body class="case-page case-page--project-2">
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a
+          class="logo-link fade-in"
+          href="index.html#home"
+          aria-label="Ga naar home"
+        >
+          <img
+            src="logotje1.png"
+            alt="Portfolio logo"
+            class="logo"
+            loading="eager"
+          />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open navigatie"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Hoofdnavigatie">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#projecten">Projecten</a>
+          <a href="index.html#over-mij">Over mij</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="case-hero section" aria-labelledby="case-title">
+        <div class="container reveal case-shell">
+          <aside class="case-side-nav" aria-label="Case secties">
+            <p class="case-side-title">Case navigatie</p>
+            <a href="#intro">Intro</a>
+            <a href="#probleem">Probleem</a>
+            <a href="#ontwerpvraag">Ontwerpvraag</a>
+            <a href="#mijn-rol">Mijn rol</a>
+            <a href="#oplossing">Oplossing</a>
+            <a href="#proces">Proces</a>
+            <a href="#prototype">Prototype</a>
+            <a href="#ux-beslissingen">UX beslissingen</a>
+            <a href="#interactie">Interactie</a>
+            <a href="#resultaat-interactie">Resultaat</a>
+            <a href="#obstakels">Obstakels</a>
+            <a href="#feedback">Feedback en iteratie</a>
+            <a href="#resultaat">Resultaat</a>
+            <a href="#reflectie">Reflectie</a>
+          </aside>
+
+          <article class="case-content">
+            <h1 id="case-title">
+              Beslis Later: Gedragsbeïnvloeding in een app design
+            </h1>
+
+            <section id="intro" class="case-block reveal" data-case-section>
+              <h2>Intro</h2>
+              <p>
+                Voor het vak Ontwerpen voor Gedragsbeïnvloeding heb ik gewerkt
+                aan een concept waarin ik UX design combineer met psychologie.
+                Ik heb een app ontworpen genaamd Beslis Later, die jongeren
+                helpt om bewuster om te gaan met impulsaankopen.
+              </p>
+              <p>
+                Het project laat zien hoe je met kleine ontwerpkeuzes gedrag
+                kunt sturen, zonder iets te verbieden.
+              </p>
+            </section>
+
+            <section id="probleem" class="case-block reveal" data-case-section>
+              <h2>Het probleem</h2>
+              <p>
+                Veel jongeren doen impulsaankopen zonder hier echt bij stil te
+                staan. Door sociale media, snelle betaalmethodes en constante
+                prikkels wordt kopen steeds makkelijker.
+              </p>
+              <p>
+                Wat ik interessant vond, is dat dit gedrag vaak niet bewust
+                gebeurt. Mensen kopen iets omdat het goed voelt op dat moment,
+                maar krijgen later spijt of stress.
+              </p>
+            </section>
+
+            <section
+              id="ontwerpvraag"
+              class="case-block reveal"
+              data-case-section
+            >
+              <h2>Ontwerpvraag</h2>
+              <p>
+                <strong>
+                  “Hoe kunnen we jongeren helpen impulsaankopen uit te stellen,
+                  zodat zij slimmere keuzes maken zonder dat iets wordt
+                  verboden?”
+                </strong>
+              </p>
+            </section>
+
+            <section id="mijn-rol" class="case-block reveal" data-case-section>
+              <h2>Mijn rol</h2>
+              <p>Binnen dit project heb ik het volledige proces doorlopen:</p>
+              <ul class="case-list">
+                <li>Deskresearch naar gedragspsychologie</li>
+                <li>Conceptontwikkeling</li>
+                <li>UX design &amp; prototyping</li>
+                <li>Visueel design in Figma</li>
+                <li>Klantreis en interacties uitwerken</li>
+              </ul>
+            </section>
+
+            <section id="oplossing" class="case-block reveal" data-case-section>
+              <h2>De oplossing: Beslis Later</h2>
+              <p>
+                Beslis Later is een app die een pauzemoment creëert tussen
+                impuls en aankoop. Gebruikers kunnen een product op een
+                wachtlijst zetten. Na 24 uur krijgen ze opnieuw de keuze om het
+                product te kopen.
+              </p>
+              <p>In die tijd:</p>
+              <ul class="case-list">
+                <li>zien ze hoeveel geld ze kunnen besparen</li>
+                <li>krijgen ze steun van vrienden</li>
+                <li>denken ze bewuster na</li>
+              </ul>
+              <p>De app gebruikt bewust gedragsprincipes zoals:</p>
+              <ul class="case-list">
+                <li>Delay effect</li>
+                <li>Social proof</li>
+                <li>Goal gradient effect</li>
+                <li>Authority bias</li>
+              </ul>
+            </section>
+
+            <section id="proces" class="case-block reveal" data-case-section>
+              <h2>Mijn aanpak en ontwerp proces</h2>
+
+              <h3>Onderzoek</h3>
+              <p>
+                Ik begon het project met deskresearch naar impulsief koopgedrag.
+              </p>
+              <p>Uit onderzoek bleek onder andere dat:</p>
+              <ul class="case-list">
+                <li>
+                  impulsaankopen vaak worden veroorzaakt door emoties zoals
+                  stress of verveling
+                </li>
+                <li>
+                  online winkelen impulsgedrag versterkt door snelle
+                  betaalmethodes
+                </li>
+                <li>
+                  een 24-uurs regel een bewezen manier is om impulsaankopen te
+                  verminderen
+                </li>
+              </ul>
+              <p>Deze inzichten vormden de basis voor het concept.</p>
+              <p>Op basis van deze inzichten heb ik een persona gemaakt:</p>
+
+              <figure class="case-image">
+                <img
+                  src="fotos ogb voor portje/Lisa persona ogb.png"
+                  alt="Lisa persona"
+                  loading="lazy"
+                />
+              </figure>
+
+              <p>
+                Lisa koopt regelmatig impulsief producten online, wil beter
+                sparen maar vindt dat lastig en voelt soms spijt na aankopen.
+              </p>
+
+              <h3>Conceptontwikkeling</h3>
+              <p>
+                Om verschillende oplossingen te verkennen gebruikte ik de Crazy
+                Eight methode. Hierbij heb ik in korte tijd meerdere richtingen
+                bedacht, zonder meteen te oordelen. Dit hielp mij om niet vast
+                te blijven zitten in één idee.
+              </p>
+
+              <figure class="case-image">
+                <img
+                  src="fotos ogb voor portje/crazy eight 1 ogb.png"
+                  alt="Crazy Eight eerste versie"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3>Eerste selectie (COCD-box)</h3>
+              <p>
+                Vervolgens heb ik mijn ideeën beoordeeld met de COCD-box.
+                Hieruit bleek dat de wachtlijst-app het sterkste concept was,
+                omdat het direct inspeelt op het moment van twijfel en gebaseerd
+                is op gedragstheorie.
+              </p>
+
+              <figure class="case-image">
+                <img
+                  src="fotos ogb voor portje/COCD box ogb.png"
+                  alt="COCD-box selectie"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3>Conceptvisualisatie</h3>
+              <p>
+                Het gekozen idee heb ik visueel uitgewerkt als eerste concept.
+                Dit hielp om het idee concreter te maken en beter te kunnen
+                uitleggen.
+              </p>
+
+              <h3>Concept verfijnen (tweede Crazy Eight)</h3>
+              <p>
+                Daarna heb ik een tweede Crazy Eight gedaan om functies voor de
+                app te bedenken. Ik heb hier gekeken naar dingen zoals
+                challenges, sociale interactie en beloningen.
+              </p>
+
+              <figure class="case-image">
+                <img
+                  src="fotos ogb voor portje/crazy eight 2 ogb.png"
+                  alt="Crazy Eight tweede versie"
+                  loading="lazy"
+                />
+              </figure>
+
+              <p>
+                Daarnaast heb ik ook nog een halve Crazy Eight gedaan voor
+                guerrilla marketing:
+              </p>
+
+              <figure class="case-image">
+                <img
+                  src="fotos ogb voor portje/onafgemaakte crazy eight ogb.png"
+                  alt="Halve Crazy Eight voor guerrilla marketing"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3>Van idee naar ontwerp</h3>
+              <p>Ik heb mijn concept uitgewerkt in een storymap.</p>
+
+              <figure class="case-image">
+                <img
+                  src="fotos ogb voor portje/storymap ogb.png"
+                  alt="Storymap van het concept"
+                  loading="lazy"
+                />
+              </figure>
+
+              <p>
+                Deze storymap heb ik weer vertaald naar een volledige customer
+                journey waarin de situatie wordt belicht. Deze bevat de
+                psychologische principes, biases, heuristieken, persuasion
+                patterns, design interventies en affect.
+              </p>
+
+              <figure class="case-image case-image-wide">
+                <img
+                  src="fotos ogb voor portje/2-Beslis-later-Customer-journey-OGB-1 kopie.png"
+                  alt="Customer journey Beslis Later"
+                  loading="lazy"
+                />
+              </figure>
+
+              <p>
+                Daarnaast heb ik een guerrilla marketing idee uitgewerkt om de
+                app onder de aandacht te brengen:
+              </p>
+
+              <figure class="case-image">
+                <img
+                  src="fotos ogb voor portje/guerrilla marketing ogb.png"
+                  alt="Guerrilla marketing idee"
+                  loading="lazy"
+                />
+              </figure>
+
+              <p>
+                De guerilla marketing dient als middel om mensen nieuwsgierig te
+                maken naar Beslis Later, deze nieuwsgierigheid zet aan tot het
+                downloaden van de app.
+              </p>
+
+              <h3>Wireframe</h3>
+              <p>
+                Voordat ik ben begonnen met het uitwerken in figma heb ik een
+                korte wireframe gemaakt.
+              </p>
+
+              <figure class="case-image">
+                <img
+                  src="fotos ogb voor portje/wireframe beslis later.png"
+                  alt="Wireframe van Beslis Later"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3>Prototype &amp; tools</h3>
+              <p>
+                Voor het prototype heb ik gewerkt in Figma. Voor inspiratie keek
+                ik naar bestaande apps en Pinterest. Daarnaast heb ik ook
+                ChatGPT gebruikt om een gevoel te krijgen voor layout en
+                structuur.
+              </p>
+            </section>
+
+            <section id="prototype" class="case-block reveal" data-case-section>
+              <h2>Prototype schermen</h2>
+              <p>
+                Hieronder zie je de belangrijkste schermen uit de app, die samen
+                laten zien hoe de gebruiker stap voor stap door de app beweegt
+                en hoe het ontwerp inspeelt op
+                <u>gedragsbeïnvloeding</u>.
+              </p>
+
+              <figure class="case-image case-image-prototype-small">
+                <img
+                  src="fotos ogb voor portje/beginscherm.png"
+                  alt="Beginscherm"
+                  loading="lazy"
+                />
+              </figure>
+              <p>
+                Het <u>beginscherm</u> is bewust heel rustig gehouden. Je ziet
+                alleen het logo van Beslis Later op een witte achtergrond. Ik
+                heb hiervoor gekozen omdat het een duidelijke en simpele start
+                geeft, zonder afleiding. Dit past bij de heuristiek van
+                <u>minimalistisch design</u> en zorgt ervoor dat de gebruiker
+                niet meteen wordt overladen met prikkels.
+              </p>
+
+              <figure class="case-image case-image-prototype-small">
+                <img
+                  src="fotos ogb voor portje/Menuscherm ogb.png"
+                  alt="Menuscherm"
+                  loading="lazy"
+                />
+              </figure>
+              <p>
+                Op het <u>menuscherm</u> wordt de gebruiker persoonlijk
+                aangesproken, bijvoorbeeld met "Goed bezig, Lisa!". Dit maakt
+                het meteen herkenbaar en motiveert. De voortgangsbalk stopt net
+                voor een mijlpaal. Dit heb ik bewust gedaan vanwege het
+                <u>goal gradient effect</u>: mensen zijn sneller gemotiveerd om
+                door te gaan als ze bijna hun doel hebben bereikt. Ook staan
+                hier opties zoals het toevoegen van een item of praten met Skip,
+                zodat de gebruiker meteen weet wat die kan doen.
+              </p>
+
+              <figure class="case-image case-image-prototype-small">
+                <img
+                  src="fotos ogb voor portje/Wachtlijst ogb.png"
+                  alt="Wachtlijst scherm"
+                  loading="lazy"
+                />
+              </figure>
+              <p>
+                In het <u>wachtlijst scherm</u> ziet de gebruiker alle producten
+                waarover die twijfelt. Hier staat ook een timer bij, die laat
+                zien hoelang de 24 uur nog duurt. Dit scherm is gebaseerd op het
+                <u>delay effect</u>: door een aankoop uit te stellen, krijgt de
+                gebruiker meer tijd om na te denken en neemt de impuls af.
+                Daarnaast wordt hier ook <u>social proof</u> gebruikt,
+                bijvoorbeeld door te laten zien dat anderen ook hun aankopen
+                uitstellen.
+              </p>
+
+              <figure class="case-image case-image-prototype-small">
+                <img
+                  src="fotos ogb voor portje/24 uur melding.png"
+                  alt="24-uurs melding"
+                  loading="lazy"
+                />
+              </figure>
+              <p>
+                De <u>24-uurs melding</u> is een belangrijk moment in de app. Na
+                een dag krijgt de gebruiker een notificatie met de vraag of het
+                product nog steeds nodig is. Dit moment zorgt ervoor dat de
+                beslissing opnieuw wordt bekeken, maar dan minder vanuit emotie
+                en meer vanuit ratio. Dit sluit direct aan op het onderzoek dat
+                laat zien dat uitstellen helpt bij het verminderen van
+                impulsaankopen.
+              </p>
+
+              <figure class="case-image case-image-prototype-small">
+                <img
+                  src="fotos ogb voor portje/challenges ogb.png"
+                  alt="Challenges scherm"
+                  loading="lazy"
+                />
+              </figure>
+              <p>
+                Op het <u>challenges scherm</u> kan de gebruiker meedoen aan
+                spaardoelen, bijvoorbeeld samen met vrienden. Hier heb ik
+                gekozen voor een vorm van <u>gamification</u>, zoals badges en
+                voortgang. Dit maakt het proces leuker en zorgt ervoor dat
+                gebruikers gemotiveerd blijven zonder dat het voelt als een
+                verplichting.
+              </p>
+
+              <figure class="case-image case-image-prototype-small">
+                <img
+                  src="fotos ogb voor portje/Sociale gedeelte.png"
+                  alt="Sociale gedeelte"
+                  loading="lazy"
+                />
+              </figure>
+              <p>
+                Het <u>sociale gedeelte</u> laat zien wat andere gebruikers
+                doen. Bijvoorbeeld wanneer iemand een aankoop uitstelt of een
+                doel behaalt. Dit versterkt <u>social proof</u>, omdat
+                gebruikers zien dat anderen hetzelfde gedrag vertonen. Hierdoor
+                wordt het makkelijker om zelf ook bewuste keuzes te maken.
+              </p>
+
+              <figure class="case-image case-image-prototype-small">
+                <img
+                  src="fotos ogb voor portje/scherm skip.png"
+                  alt="Skip scherm"
+                  loading="lazy"
+                />
+              </figure>
+              <p>
+                In het <u>Skip scherm</u> kan de gebruiker praten met een
+                AI-assistent. Skip is bewust toegevoegd als vorm van
+                <u>antropomorfisme</u>. Door de app een soort "persoonlijkheid"
+                te geven, voelt het minder streng en meer als een hulpmiddel.
+                Skip helpt de gebruiker om na te denken over een aankoop, zonder
+                te oordelen.
+              </p>
+
+              <figure class="case-image case-image-prototype-small">
+                <img
+                  src="fotos ogb voor portje/scherm Erik.png"
+                  alt="Artikel scherm met expert"
+                  loading="lazy"
+                />
+              </figure>
+              <p>
+                In dit <u>artikel scherm</u> wordt gebruik gemaakt van een
+                expert, zoals Erik Scherder. Dit speelt in op
+                <u>authority bias</u>: mensen nemen informatie sneller aan van
+                iemand met kennis of status. Hierdoor wordt de boodschap
+                geloofwaardiger en sterker.
+              </p>
+            </section>
+
+            <section
+              id="ux-beslissingen"
+              class="case-block reveal"
+              data-case-section
+            >
+              <h2>Belangrijke UX beslissingen</h2>
+              <p>Tijdens het ontwerp heb ik bewust UX-principes toegepast.</p>
+              <p>
+                <strong>Goal Gradient Effect</strong> De voortgang motiveert
+                gebruikers om door te gaan.
+              </p>
+              <p>
+                <strong>Social Proof</strong> Gebruikers zien dat anderen
+                hetzelfde doen.
+              </p>
+              <p>
+                <strong>Antropomorfisme</strong> De app bevat Skip als
+                assistent.
+              </p>
+            </section>
+
+            <section
+              id="interactie"
+              class="case-block reveal"
+              data-case-section
+            >
+              <h2>Interactie tussen Lisa en Mark</h2>
+              <p>
+                Om het sociale aspect beter te laten zien heb ik een interactie
+                uitgewerkt.
+              </p>
+
+              <div class="process-steps">
+                <article class="process-step">
+                  <h3>Lisa start</h3>
+                  <div class="image-pair">
+                    <figure class="case-image">
+                      <img
+                        src="fotos ogb voor portje/lisa 1.png"
+                        alt="Lisa start stap 1"
+                        loading="lazy"
+                      />
+                    </figure>
+                    <figure class="case-image">
+                      <img
+                        src="fotos ogb voor portje/lisa 2.png"
+                        alt="Lisa start stap 2"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </div>
+                  <p>
+                    Lisa start een challenge en kiest iemand om uit te nodigen.
+                  </p>
+                  <div class="image-pair">
+                    <figure class="case-image">
+                      <img
+                        src="fotos ogb voor portje/Lisa 3.png"
+                        alt="Lisa uitnodiging stap 3"
+                        loading="lazy"
+                      />
+                    </figure>
+                    <figure class="case-image">
+                      <img
+                        src="fotos ogb voor portje/Lisa 4.png"
+                        alt="Lisa uitnodiging stap 4"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </div>
+                  <p>Ze stuurt een uitnodiging naar Mark.</p>
+                </article>
+
+                <article class="process-step">
+                  <h3>Mark reageert</h3>
+                  <div class="image-pair">
+                    <figure class="case-image">
+                      <img
+                        src="fotos ogb voor portje/mark 5.png"
+                        alt="Mark reageert stap 5"
+                        loading="lazy"
+                      />
+                    </figure>
+                    <figure class="case-image">
+                      <img
+                        src="fotos ogb voor portje/Mark 6.png"
+                        alt="Mark reageert stap 6"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </div>
+                  <p>Mark ontvangt de uitnodiging en besluit mee te doen.</p>
+                  <figure class="case-image">
+                    <img
+                      src="fotos ogb voor portje/Mark 8.png"
+                      alt="Mark bevestiging stap 8"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <p>Hij krijgt bevestiging en motivatie om te starten.</p>
+                </article>
+
+                <article class="process-step">
+                  <h3>Lisa twijfelt</h3>
+                  <div class="image-pair">
+                    <figure class="case-image">
+                      <img
+                        src="fotos ogb voor portje/Lisa 9.png"
+                        alt="Lisa twijfelt stap 9"
+                        loading="lazy"
+                      />
+                    </figure>
+                    <figure class="case-image">
+                      <img
+                        src="fotos ogb voor portje/10 Lisa.png"
+                        alt="Lisa twijfelt stap 10"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </div>
+                  <p>Lisa twijfelt over een aankoop en voegt deze toe.</p>
+                  <figure class="case-image">
+                    <img
+                      src="fotos ogb voor portje/11 Lisa.png"
+                      alt="Lisa deelt stap 11"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <p>Ze besluit dit te delen met Mark.</p>
+                </article>
+
+                <article class="process-step">
+                  <h3>Mark helpt</h3>
+                  <div class="image-pair">
+                    <figure class="case-image">
+                      <img
+                        src="fotos ogb voor portje/12 mark.png"
+                        alt="Mark helpt stap 12"
+                        loading="lazy"
+                      />
+                    </figure>
+                    <figure class="case-image">
+                      <img
+                        src="fotos ogb voor portje/13 Mark.png"
+                        alt="Mark helpt stap 13"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </div>
+                  <p>Mark ziet haar twijfel en reageert.</p>
+                  <figure class="case-image">
+                    <img
+                      src="fotos ogb voor portje/14 Mark.png"
+                      alt="Mark motiveert stap 14"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <p>Hij motiveert haar om niet te kopen.</p>
+                </article>
+              </div>
+            </section>
+
+            <section
+              id="resultaat-interactie"
+              class="case-block reveal"
+              data-case-section
+            >
+              <h2>Resultaat</h2>
+
+              <figure class="case-image">
+                <img
+                  src="fotos ogb voor portje/15 Lisa.png"
+                  alt="Lisa resultaat stap 15"
+                  loading="lazy"
+                />
+              </figure>
+              <p>Lisa besluit het product niet te kopen.</p>
+
+              <div class="image-pair">
+                <figure class="case-image">
+                  <img
+                    src="fotos ogb voor portje/16 mark.png"
+                    alt="Mark reactie stap 16"
+                    loading="lazy"
+                  />
+                </figure>
+                <figure class="case-image">
+                  <img
+                    src="fotos ogb voor portje/17 Mark.png"
+                    alt="Mark reactie stap 17"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+              <p>Mark reageert hierop en dit versterkt het gedrag.</p>
+            </section>
+
+            <section id="obstakels" class="case-block reveal" data-case-section>
+              <h2>Obstakels</h2>
+              <p>
+                Tijdens het project liep ik soms vast in Figma, vooral bij
+                interacties. Ook vond ik het lastig om het sociale aspect goed
+                uit te werken in het begin, maar door inspiratie op te zoeken en
+                feedback te krijgen lukte het mij om uiteindelijk tot een mooi
+                resultaat te komen.
+              </p>
+            </section>
+
+            <section id="feedback" class="case-block reveal" data-case-section>
+              <h2>Feedback en iteratie</h2>
+              <p>
+                Tijdens de feedbackronde presenteerde ik een mid-fi prototype.
+                Hieruit bleek dat het sociale aspect sterker kon en dat
+                interacties duidelijker moesten. Dit heb ik verwerkt in de Lisa
+                &amp; Mark flow.
+              </p>
+            </section>
+
+            <section id="resultaat" class="case-block reveal" data-case-section>
+              <h2>Resultaat</h2>
+
+              <p>Het eindresultaat is een UX prototype waarin gebruikers:</p>
+              <ul class="case-list">
+                <li>aankopen uitstellen</li>
+                <li>bewuster kiezen</li>
+                <li>samen doelen behalen</li>
+              </ul>
+            </section>
+
+            <section id="reflectie" class="case-block reveal" data-case-section>
+              <h2>Reflectie</h2>
+              <p>
+                Tijdens dit project heb ik geleerd hoe design gedrag kan
+                beïnvloeden. Ik heb ontdekt dat de combinatie van UX en
+                psychologie echt het verschil maakt. Daarnaast heb ik mijn
+                vaardigheden in Figma verder ontwikkeld.
+              </p>
+              <p>
+                In de toekomst wil ik dit concept verder uitbreiden met meer
+                personalisatie en sociale functies.
+              </p>
+            </section>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer case-footer">
+      <div
+        class="container case-nav-bottom"
+        aria-label="Project navigatie onderaan"
+      >
+        <a href="project-1.html" aria-label="Ga naar vorig project"
+          >Vorig project</a
+        >
+        <a
+          href="index.html#projecten"
+          aria-label="Terug naar projecten overzicht"
+          >Terug naar overzicht</a
+        >
+        <a href="project-3.html" aria-label="Ga naar volgend project"
+          >Volgend project</a
+        >
+      </div>
+    </footer>
+
+    <script src="js/main.js?v=20260321a" defer></script>
+    <script src="js/project.js?v=20260321a" defer></script>
+  </body>
+</html>

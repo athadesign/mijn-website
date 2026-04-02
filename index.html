@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio van Athanasia Drakopoulos - modern, minimalistisch en responsive webdesign."
+    />
+    <title>Portfolio | Athanasia Drakopoulos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="cursor-dot" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="logo-link fade-in" href="#home" aria-label="Ga naar home">
+          <img
+            src="logotje1.png"
+            alt="Portfolio logo"
+            class="logo"
+            loading="eager"
+          />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open navigatie"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Hoofdnavigatie">
+          <a href="#home">Home</a>
+          <a href="#projecten">Projecten</a>
+          <a href="#over-mij">Over mij</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-blob" aria-hidden="true"></div>
+        <div class="container hero-content">
+          <h1
+            id="hero-title"
+            class="hero-title"
+            aria-label="Hallo! Ik ben Athanasia Drakopoulos"
+          >
+            <span class="hero-greeting">Hallo! Ik ben</span>
+            <span
+              class="hero-name"
+              data-name="Athanasia Drakopoulos"
+              aria-label="Athanasia Drakopoulos"
+            >
+              Athanasia Drakopoulos
+            </span>
+          </h1>
+          <p class="hero-quality" id="hero-quality" aria-live="polite">
+            Raak een letter aan voor mijn kwaliteit
+          </p>
+        </div>
+        <a
+          class="scroll-indicator"
+          href="#projecten"
+          aria-label="Scroll naar projecten"
+        >
+          <span></span>
+        </a>
+      </section>
+
+      <section
+        class="projects section"
+        id="projecten"
+        aria-labelledby="projects-title"
+      >
+        <div class="container">
+          <p class="eyebrow reveal">Selectie</p>
+          <h2 id="projects-title" class="section-title reveal">Projecten</h2>
+
+          <div class="projects-grid">
+            <a
+              class="project-card project-1 reveal"
+              href="project-1.html"
+              aria-label="Bekijk project 1 case study"
+            >
+              <p class="project-index">01</p>
+              <h3>Doppio Espresso UX Redesign</h3>
+              <ul class="project-keywords" aria-label="Project kernwoorden">
+                <li>Onderzoek</li>
+                <li>Usability tests</li>
+                <li>UX/UI</li>
+                <li>Datagedreven</li>
+                <li>Heuristieken</li>
+                <li>Toegankelijkheid</li>
+              </ul>
+              <figure class="project-preview-media" aria-hidden="true">
+                <img
+                  src="doppio logo.jpg"
+                  alt="Doppio logo als projectvisual"
+                  loading="lazy"
+                />
+              </figure>
+            </a>
+
+            <a
+              class="project-card project-2 reveal"
+              href="project-2.html"
+              aria-label="Bekijk project 2 case study"
+            >
+              <p class="project-index">02</p>
+              <h3>Beslis Later</h3>
+              <ul class="project-keywords" aria-label="Project kernwoorden">
+                <li>Behavioural Design</li>
+                <li>Interaction Design</li>
+                <li>Gamification</li>
+                <li>Prototyping</li>
+                <li>Heuristieken</li>
+                <li>Social Design</li>
+              </ul>
+              <figure class="project-preview-media" aria-hidden="true">
+                <img
+                  src="fotos ogb voor portje/beslis later logo case.png"
+                  alt="Beslis Later logo als projectvisual"
+                  loading="lazy"
+                />
+              </figure>
+            </a>
+
+            <a
+              class="project-card project-3 reveal"
+              href="project-3.html"
+              aria-label="Bekijk project 3 case study"
+            >
+              <p class="project-index">03</p>
+              <h3>De appels liggen niet ver van de boom</h3>
+              <ul class="project-keywords" aria-label="Project kernwoorden">
+                <li>Usability tests</li>
+                <li>Interaction design</li>
+                <li>Prototyping</li>
+                <li>Audio-visuele-ervaring</li>
+                <li>Interviews</li>
+                <li>Concept development</li>
+              </ul>
+              <figure class="project-preview-media" aria-hidden="true">
+                <img
+                  src="portje pfi 1/appeltje pfi.png"
+                  alt="Appeltje PFI als projectvisual"
+                  loading="lazy"
+                />
+              </figure>
+            </a>
+
+            <a
+              class="project-card project-4 reveal"
+              href="project-4.html"
+              aria-label="Bekijk project 4 case study"
+            >
+              <p class="project-index">04</p>
+              <h3>Bloei Op! - Transmedia Campagne</h3>
+              <ul class="project-keywords" aria-label="Project kernwoorden">
+                <li>Usability tests</li>
+                <li>Visueel ontwerp</li>
+                <li>Experience Design</li>
+                <li>Campagneconcept</li>
+                <li>Generative AI</li>
+                <li>Laagdrempeligheid</li>
+              </ul>
+              <figure class="project-preview-media" aria-hidden="true">
+                <img
+                  src="TMS voor portje 1/tekening buitenkant.png"
+                  alt="Tekening buitenkant als projectvisual"
+                  loading="lazy"
+                />
+              </figure>
+            </a>
+
+            <a
+              class="project-card project-5 reveal"
+              href="project-5.html"
+              aria-label="Bekijk project 5 case study"
+            >
+              <p class="project-index">05</p>
+              <h3>Spinnenheld – VR Experience</h3>
+              <ul class="project-keywords" aria-label="Project kernwoorden">
+                <li>VR-Prototyping</li>
+                <li>Interaction Design</li>
+                <li>Exposure Design</li>
+                <li>Lua Scripting</li>
+                <li>Child UX</li>
+                <li>Storytelling</li>
+              </ul>
+              <figure class="project-preview-media" aria-hidden="true">
+                <img
+                  src="OXR voor portje1/gerrit kamer.png"
+                  alt="Gerrit kamer als projectvisual"
+                  loading="lazy"
+                />
+              </figure>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="about section"
+        id="over-mij"
+        aria-labelledby="about-title"
+      >
+        <div class="container about-grid">
+          <div class="about-image reveal">
+            <img
+              src="assets/images/portrait.svg"
+              alt="Portret placeholder"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="about-content reveal">
+            <p class="eyebrow">Over mij</p>
+            <h2 id="about-title" class="section-title">Over Mij</h2>
+            <div class="about-copy">
+              <p>
+                Ik zit in mijn tweede jaar van Communicatie &amp; Multimedia
+                Design aan de Hanze Hogeschool in Groningen. Ik heb een
+                groeiende interesse in UX/UI-design en wil mij vooral richten op
+                de psychologie achter UX en het gebruik van AI-tools.
+              </p>
+              <p>
+                Ik ben iemand die niet alleen maar houdt van een mooi ontwerp,
+                maar vooral ook bezig is met de "Waarom"-vraag hierachter. Ik
+                ben analytisch ingesteld en geef de voorkeur aan duidelijke
+                doelen. Ik onderbouw graag mijn keuzes en let op details.
+                Daarnaast reflecteer ik veel op mijn werk: wat was hier goed
+                aan? Wat kon beter? Want ik wil graag echte impact maken.
+              </p>
+              <p>
+                Tegelijkertijd ben ik ook erg creatief. Als kind deed ik vroeger
+                niets anders dan tekenen, schilderen, knutselen en bezig zijn
+                met hoe iets eruitzag. Ik lette daarbij veel op de kleuren en
+                vormen. Dit is nog steeds onderdeel van wie ik ben.
+              </p>
+              <p>
+                Ik geloof dat UX/UI-design hier goed bij aansluit: een design
+                dat niet alleen esthetisch oogt, maar ook daadwerkelijk werkt en
+                goed onderbouwd is. Daarom viel deze kant van CMD mij gelijk op.
+              </p>
+              <p>
+                Daarnaast is samenwerking voor mij erg belangrijk. Ik werk graag
+                samen met anderen en haal daar veel energie uit. Een gezellige
+                en open sfeer draagt daar voor mij extra aan bij, en ik vind het
+                fijn als er ook ruimte is voor een beetje humor.
+              </p>
+              <p>
+                Als student ben ik nog wel zoekende naar waar mijn plek precies
+                ligt binnen het brede werkveld. Daarom kijk ik juist erg uit
+                naar een stage, zodat ik dit verder kan ontdekken en kan ervaren
+                wat echt bij mij past. Ik sta altijd open om nieuwe dingen te
+                leren en wil mezelf blijven ontwikkelen.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-track reveal" aria-label="Skills">
+          <div class="skills-track-inner">
+            <ul class="skills-line" role="list">
+              <li>UX/UI Design</li>
+              <li>Design Thinking</li>
+              <li>User Research</li>
+              <li>Usability Testing</li>
+              <li>Prototyping</li>
+              <li>Wireframing</li>
+              <li>Concept Development</li>
+              <li>Ideation</li>
+              <li>Interaction Design</li>
+              <li>Experience Design</li>
+              <li>Visual Storytelling</li>
+              <li>Problem Solving</li>
+              <li>Creative Thinking</li>
+              <li>Figma</li>
+              <li>Adobe Illustrator</li>
+              <li>Miro</li>
+              <li>Behavioural Design</li>
+            </ul>
+            <ul class="skills-line" role="list" aria-hidden="true">
+              <li>UX/UI Design</li>
+              <li>Design Thinking</li>
+              <li>User Research</li>
+              <li>Usability Testing</li>
+              <li>Prototyping</li>
+              <li>Wireframing</li>
+              <li>Concept Development</li>
+              <li>Ideation</li>
+              <li>Interaction Design</li>
+              <li>Experience Design</li>
+              <li>Visual Storytelling</li>
+              <li>Problem Solving</li>
+              <li>Creative Thinking</li>
+              <li>Figma</li>
+              <li>Adobe Illustrator</li>
+              <li>Miro</li>
+              <li>Behavioural Design</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="contact section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="container contact-wrap reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title" class="section-title">
+            Neem gerust contact op!
+          </h2>
+          <a class="mail-link" href="mailto:hello@jouwdomein.com"
+            >a.drakopoulos@st.hanze.nl</a
+          >
+
+          <div class="socials" aria-label="Social media links">
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Behance">Behance</a>
+            <a href="#" aria-label="GitHub">GitHub</a>
+          </div>
+
+          <form class="contact-form" aria-label="Contact formulier">
+            <label for="name">Naam</label>
+            <input id="name" name="name" type="text" autocomplete="name" />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" />
+
+            <label for="message">Bericht</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <button type="submit">Verstuur</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Athanasia Drakopoulos</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
