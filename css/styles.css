@@ -487,8 +487,8 @@ a {
   margin-top: 1.3rem;
   border-radius: 16px;
   overflow: hidden;
-  border: 1px solid rgba(29, 29, 31, 0.08);
-  background: rgba(255, 255, 255, 0.78);
+  border: 0;
+  background: transparent;
   min-height: clamp(120px, 16vw, 180px);
   display: grid;
   place-items: center;
@@ -508,6 +508,33 @@ a {
   transition:
     transform 320ms var(--ease-out),
     opacity 240ms ease;
+}
+
+.project-3 .project-preview-media,
+.project-4 .project-preview-media,
+.project-5 .project-preview-media {
+  min-height: clamp(170px, 24vw, 250px);
+  display: block;
+  padding: 0;
+}
+
+.project-3 .project-preview-media picture,
+.project-3 .project-preview-media img,
+.project-4 .project-preview-media picture,
+.project-4 .project-preview-media img,
+.project-5 .project-preview-media picture,
+.project-5 .project-preview-media img {
+  width: 100%;
+  height: 100%;
+}
+
+.project-3 .project-preview-media img,
+.project-4 .project-preview-media img,
+.project-5 .project-preview-media img {
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+  object-position: center;
 }
 
 .project-preview-overlay {
