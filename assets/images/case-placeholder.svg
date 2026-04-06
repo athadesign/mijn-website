@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Afbeelding placeholder</title>
+  <desc id="desc">Tijdelijke placeholder voor portfolio case beeldmateriaal.</desc>
+  <rect width="1600" height="900" fill="#eceff3" />
+  <rect x="40" y="40" width="1520" height="820" fill="none" stroke="#b5bec9" stroke-width="8" stroke-dasharray="24 16" />
+  <circle cx="520" cy="360" r="92" fill="#c7d0db" />
+  <path d="M300 650 560 420 760 590 920 480 1240 710H300Z" fill="#c7d0db" />
+  <text x="800" y="790" text-anchor="middle" font-family="Instrument Sans, sans-serif" font-size="44" fill="#4a5564">
+    Afbeelding placeholder
+  </text>
+</svg>

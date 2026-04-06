@@ -26,7 +26,7 @@ const nameQualities = [
   { letter: ' ', quality: '' },
   { letter: 'D', quality: 'Detailgeorienteerd' },
   { letter: 'R', quality: 'Reflectief' },
-  { letter: 'A', quality: 'Authentiek' },
+  { letter: 'A', quality: 'Ambitieus' },
   { letter: 'K', quality: 'Kritisch' },
   { letter: 'O', quality: 'Oplossingsgericht' },
   { letter: 'P', quality: 'Psychologisch geinteresseerd' },
